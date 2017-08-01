@@ -1,5 +1,7 @@
 INTRODUCTION:
-   In eforth, unlike most programming languages, a function call is placed after its operands. For example, if the user wants to add 2 + 2, instead of "2 + 2" or "+ 2 2", the user would type "2 2 +". This is the case for almost all of eforth's built in functions.
+   In eforth, unlike most programming languages, a function call is placed after its operands. For example, if the user wants to
+   add 2 + 2, instead of "2 + 2" or "+ 2 2", the user would type "2 2 +". This is the case for almost all of eforth's built in
+   functions.
 BUILT IN FUNCTIONS:
 !=
 *
