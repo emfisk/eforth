@@ -1,4 +1,4 @@
-# functions:
+FUNCTIONS:
 !=
 *
 +
@@ -35,5 +35,6 @@ STRCMP
 TAN
 TRUNC
 VARIABLE
+^
 
 
