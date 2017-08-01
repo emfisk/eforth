@@ -1,2 +1,2 @@
-# eforth
-A stack-oriented programming language.
+eforth
+a stack oriented calculator programming language thingy
