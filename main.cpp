@@ -7,6 +7,7 @@
 #include<map>
 #include<iostream>
 using namespace std;
+int stacksize=65536;
 map <string,int> variables;
 char stack[65536][256];
 char nextword[256];
@@ -17,11 +18,12 @@ FILE *file;
 
 int init(int x,char *y[]){
   if(x==1){
-    printf("ERROR : NO nextword FILE.\n");
+    printf("ERROR : NO INPUT FILE.\n");
     exit(0);
   }
   if(x>2){
-    printf("NOTE : EFORTH TAKES ONLY ONE nextword FILE.\nEFORTH WILL ONLY eval %s.\n",y[1]);
+    printf("ERROR :  EFORTH TAKES ONE INPUT FILE ONLY.");
+    exit(0);
   }
   file=fopen(y[1],"r");
   if(file==NULL){
@@ -44,9 +46,9 @@ int eval(){
             } 
  
      }
-    if(counter>65535)
+    if(counter>stacksize){
         printf("STACK OVERFLOW ERROR");
-     else if(strcmp(nextword,"LOOP")==0){
+     } else if(strcmp(nextword,"LOOP")==0){
            
      } else if(strcmp(nextword,"PI")==0){
         counter++;
