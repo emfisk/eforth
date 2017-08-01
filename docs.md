@@ -1,4 +1,4 @@
-# DEFAULT FUNCTIONS:
+# functions:
 !=
 *
 +
