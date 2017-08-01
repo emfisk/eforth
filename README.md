@@ -1,2 +1,2 @@
 # eforth
-a stack oriented calculator programming language thingy
+a stack oriented open source calculator programming language thingy
