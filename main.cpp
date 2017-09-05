@@ -1,3 +1,4 @@
+// by Ethan Fisk
 #include<cmath>
 #include<stdio.h>
 #include<cstring>
